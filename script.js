@@ -1,1 +1,1 @@
-
+console.log('LOEY App Loaded - Ready for 경이!');
