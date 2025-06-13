@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LOEY - 경이의 영어 학습</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐾 레이 & 레오의 영어 꾹꾹이</h1>
+    <p class="subtitle">경이 오늘도 와줘서 고마워!</p>
+    <p class="level">레벨: <span id="level">1</span> | XP: <span id="xp">0</span>/100</p>
+    <div class="quiz-box">
+      <p id="sentence">문제 불러오는 중...</p>
+      <p id="translation" class="translation"></p>
+      <input type="text" id="answer" placeholder="정답을 입력하세요" />
+      <div class="buttons">
+        <button onclick="checkAnswer()">확인</button>
+        <button onclick="showHint()">힌트 보기</button>
+        <button onclick="nextQuestion()">다음 문제</button>
+      </div>
+    </div>
+    <p id="feedback"></p>
+    <p class="footer">"경이~ 오늘도 꾹꾹이 해보자!" 🐱</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
